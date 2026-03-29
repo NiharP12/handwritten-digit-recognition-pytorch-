@@ -1,12 +1,10 @@
-# handwritten-digit-recognition-pytorch
-
 # 🧠 Handwritten Digit Recognition using OpenCV + PyTorch
 
 A complete end-to-end deep learning project that allows users to draw handwritten digits using a mouse and predicts them using a trained Convolutional Neural Network (CNN) built with PyTorch.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Draw digits (0–9) using an OpenCV canvas  
 - Real-time prediction using a trained CNN model  
@@ -15,7 +13,7 @@ A complete end-to-end deep learning project that allows users to draw handwritte
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - PyTorch  
@@ -25,21 +23,7 @@ A complete end-to-end deep learning project that allows users to draw handwritte
 
 ---
 
-## 📁 Project Structure
-
-├── train.py              # Train CNN model  
-├── model.py              # CNN architecture  
-├── predict.py            # Predict digit from image  
-├── draw_opencv.py        # Draw digit using mouse  
-├── utils.py              # DataLoader & device setup  
-├── mnist_train.csv       # Training dataset (local)  
-├── mnist_test.csv        # Testing dataset (local)  
-├── models/  
-│   └── cnn_model.pth     # Saved trained model  
-
----
-
-## 📊 Model Architecture
+## Model Architecture
 
 The CNN model consists of:
 
@@ -52,7 +36,7 @@ Output: 10 classes (digits 0–9)
 
 ---
 
-## 🧠 Training the Model
+## Training the Model
 
 The model is trained using a custom pipeline built in PyTorch with locally stored MNIST CSV data.
 
@@ -88,7 +72,7 @@ models/cnn_model.pth
 
 ---
 
-## ✍️ Draw and Predict Digit
+## Draw and Predict Digit
 
 Run:
 
@@ -102,7 +86,7 @@ python draw_opencv.py
 
 ---
 
-## 🔍 Prediction Pipeline
+## Prediction Pipeline
 
 1. Capture drawn image from OpenCV canvas  
 2. Resize image to 28×28  
@@ -117,7 +101,7 @@ Example output:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Uses MNIST dataset stored locally in CSV format  
 - No external download is required  
@@ -127,22 +111,8 @@ Example output:
 
 ---
 
-## 🔮 Future Improvements
+## Results
 
-- Add Streamlit web interface  
-- Deploy using FastAPI  
-- Improve model accuracy with deeper architectures  
-- Add real-time webcam digit detection  
-
----
-
-## 📌 Author
-
-Nihar Patel  
-M.Tech AI Student | Aspiring AI Engineer  
-
----
-
-## ⭐ Support
-
-If you like this project, please give it a ⭐ on GitHub!
+- **Test Accuracy: 98.89%**  
+- Evaluated on MNIST test dataset  
+- Shows strong generalization on handwritten digit recognition 
