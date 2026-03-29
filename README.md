@@ -103,8 +103,7 @@ Example output:
 
 ## Dataset
 
-- Uses MNIST dataset stored locally in CSV format  
-- No external download is required  
+- Uses MNIST dataset in CSV format    
 - Each row contains:
   - First column → Label  
   - Remaining 784 columns → Pixel values  
