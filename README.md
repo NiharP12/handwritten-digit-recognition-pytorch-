@@ -1,4 +1,4 @@
-# 🧠 Handwritten Digit Recognition using OpenCV + PyTorch
+# Handwritten Digit Recognition using OpenCV + PyTorch
 
 A complete end-to-end deep learning project that allows users to draw handwritten digits using a mouse and predicts them using a trained Convolutional Neural Network (CNN) built with PyTorch.
 
